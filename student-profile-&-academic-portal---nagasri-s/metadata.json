@@ -1,0 +1,6 @@
+{
+  "name": "Student Profile & Academic Portal - Nagasri S",
+  "description": "Student profile, 2-year semester marks percentile analysis, and daily college transport sequence for Nagasri S (Reg No: 24UCS32).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
