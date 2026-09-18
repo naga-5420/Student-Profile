@@ -5,6 +5,17 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    export default defineConfig(() => {
+  return {
+    base: '/Student-Profile/',
+    plugins: [react(), tailwindcss()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
+    },
+    // ...
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
